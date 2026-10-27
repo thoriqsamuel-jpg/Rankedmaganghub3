@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Top Rank MagangHub Bapas Kelas II Ciangir</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#EEF2F7;--surface:#FFFFFF;--ink:#14263F;--muted:#5B6B82;--line:#D5DDE8;--navy:#1B3A6B;--gold:#C9962B;--silver:#8A94A3;--bronze:#A8693A;--ok:#1F7A4D;--bad:#B3392F;--warn:#B7791F;--pur:#6B4FB3;--gold-bg:#FBF1D8;--wk:#E6EBF2;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0F1A2B;--surface:#17263D;--ink:#E8EEF7;--muted:#9DB0C9;--line:#2A3D5A;--navy:#6E9BE0;--gold:#E3B34A;--silver:#A9B3C2;--bronze:#D08A58;--ok:#52C08A;--bad:#EE7B70;--warn:#E3B34A;--pur:#A99BE8;--gold-bg:#3A3220;--wk:#1F3250;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0F1A2B;--surface:#17263D;--ink:#E8EEF7;--muted:#9DB0C9;--line:#2A3D5A;--navy:#6E9BE0;--gold:#E3B34A;--silver:#A9B3C2;--bronze:#D08A58;--ok:#52C08A;--bad:#EE7B70;--warn:#E3B34A;--pur:#A99BE8;--gold-bg:#3A3220;--wk:#1F3250;color-scheme:dark}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Plus Jakarta Sans",system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.5}
+.wrap{max-width:760px;margin:0 auto;padding:28px 16px 48px}
+h1{font-size:clamp(1.7rem,6vw,2.5rem);line-height:1.1;margin:0 0 8px;font-weight:800;letter-spacing:-.02em}
+h2{font-size:1.1rem;margin:28px 0 10px}
+.sub{color:var(--muted);margin:0 0 20px;max-width:56ch}
+.rule{background:var(--gold-bg);border-left:4px solid var(--gold);padding:12px 14px;border-radius:6px;margin-bottom:20px;font-size:.92rem}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:10px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:8px;margin-bottom:18px}
+.nav button{width:44px;height:44px;border:0;border-radius:10px;background:var(--bg);color:var(--ink);font-size:1.3rem;cursor:pointer}
+.nav button:disabled{opacity:.35;cursor:default}
+.nav div{text-align:center}.nav b{display:block;font-size:1.05rem}.nav span{color:var(--muted);font-size:.85rem;font-weight:600}
+button:focus-visible,select:focus-visible{outline:3px solid var(--navy);outline-offset:2px}
+.podium{display:grid;grid-template-columns:1fr 1.15fr 1fr;gap:8px;align-items:end;margin-bottom:20px}
+.pod{background:var(--surface);border:1px solid var(--line);border-radius:10px 10px 4px 4px;padding:14px 6px 16px;text-align:center;min-width:0}
+.pod.p1{order:2;padding-top:24px;padding-bottom:24px;border:2px solid var(--gold)}.pod.p2{order:1}.pod.p3{order:3}
+.medal{display:inline-grid;place-items:center;width:34px;height:34px;border-radius:50%;color:#fff;font-weight:800;margin-bottom:8px}
+.p1 .medal{background:var(--gold);width:42px;height:42px;font-size:1.2rem}.p2 .medal{background:var(--silver)}.p3 .medal{background:var(--bronze)}
+.av{width:52px;height:52px;border-radius:50%;background:var(--navy);color:var(--bg);display:grid;place-items:center;margin:0 auto 8px;font-weight:800;font-size:1.1rem}
+.p1 .av{width:68px;height:68px;font-size:1.4rem}
+.nm{font-weight:800;overflow-wrap:anywhere}.p1 .nm{font-size:1.15rem}
+.chips{display:flex;flex-wrap:wrap;gap:4px;justify-content:center;margin-bottom:6px}
+.chip{background:var(--bg);border:1px solid var(--line);border-radius:99px;padding:1px 9px;font-size:.8rem;font-weight:600}
+.pts{color:var(--muted);font-size:.82rem}
+.badge{display:inline-block;margin-top:8px;padding:2px 8px;border-radius:99px;font-size:.72rem;font-weight:600;background:var(--ok);color:#fff}
+.stats{margin-top:6px;font-size:.76rem;color:var(--muted)}
+.empty{color:var(--muted);font-size:.85rem;padding:10px 4px}.empty b{display:block;color:var(--ink);font-size:.95rem}
+ol.list{list-style:none;margin:0;padding:0;background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.row{display:grid;grid-template-columns:36px 1fr auto;gap:10px;align-items:center;padding:12px 14px;border-top:1px solid var(--line)}
+.row:first-child{border-top:0}.rk{font-weight:800;color:var(--muted);text-align:center}.row .stats{margin:0}.sc{font-weight:800}
+.note{background:var(--surface);border:1px dashed var(--line);border-radius:10px;padding:20px;text-align:center;color:var(--muted);margin-bottom:20px}
+.ed{display:grid;gap:6px;padding:12px 0;border-top:1px solid var(--line)}
+.ed:first-of-type{border-top:0}.ed .n{font-weight:800}
+.ctrls{display:flex;flex-wrap:wrap;gap:8px 18px}
+.ctrl{display:flex;align-items:center;gap:6px;font-size:.85rem;color:var(--muted)}
+.ctrl button{width:36px;height:36px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font-size:1.2rem;cursor:pointer}
+.ctrl output{min-width:24px;text-align:center;font-weight:800;color:var(--ink)}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:4px 14px 14px}
+.hint,.foot{color:var(--muted);font-size:.82rem}
+.reset{margin-top:14px;padding:8px 14px;border-radius:6px;border:1px solid var(--bad);background:transparent;color:var(--bad);font-weight:600;cursor:pointer;font-family:inherit}
+@media (max-width:420px){.pod{padding-left:3px;padding-right:3px}.av{width:44px;height:44px}.p1 .av{width:56px;height:56px}.stats{font-size:.7rem}}
+.lnk{background:none;border:0;color:var(--navy);font:inherit;text-decoration:underline;cursor:pointer;padding:8px 0}
+#admin{display:none}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <h1>Top Rank MagangHub</h1>
+  <p class="sub">Peringkat peserta MagangHub Bapas Kelas II Ciangir per periode, berdasarkan kedisiplinan absensi.</p>
+  <div class="rule"><b>Syarat Peringkat 1:</b> absensi penuh dalam satu periode, tanpa izin, tanpa bolos, dan tanpa lupa absen. Peserta dengan skor sama berbagi peringkat yang sama.</div>
+  <div class="nav"><button id="prev" type="button" aria-label="Periode sebelumnya">‹</button><div><b id="pt"></b><span id="pd"></span></div><button id="next" type="button" aria-label="Periode berikutnya">›</button></div>
+  <div id="rank"></div>
+
+  <section id="admin">
+    <h2 id="ah">Isi absensi</h2>
+    <p class="hint" id="mode"></p>
+    <div class="panel"><div id="editor"></div></div>
+    <p class="hint">Skor dasar 100 per periode. Izin −5, bolos −15, lupa absen −3.</p>
+  <button class="reset" id="reset" type="button">Reset semua data</button>
+  </section>
+  <p class="foot">Magang berjalan 6 periode, dimulai 10 Agustus 2026.</p>
+  <button class="lnk" id="login" type="button">Masuk pengelola</button>
+</main>
+<script>
+const NAMES=['Thoriq','Dwiko','Fathur','Fata','Jajang','Bahtera','Nanda','Argya','Adzra','Rere','Rahma','Stania','Gitya'];
+const BLN=['Jan','Feb','Mar','Apr','Mei','Jun','Jul','Agu','Sep','Okt','Nov','Des'];
+const today=new Date();today.setHours(0,0,0,0);
+const per=k=>({s:new Date(2026,7+k,10),e:new Date(2026,8+k,9)});
+const fd=d=>d.getDate()+' '+BLN[d.getMonth()]+' '+d.getFullYear();
+const $=id=>document.getElementById(id);
+let data={},cur=0,pw=null,admin=false,timer=null;
+for(let k=0;k<6;k++)if(per(k).s<=today)cur=k;
+function rec(k,n){return (data[k]&&data[k][n])||{}}
+function tally(k,n){const r=rec(k,n),t={i:+r.i||0,b:+r.b||0,l:+r.l||0};t.pen=t.i*5+t.b*15+t.l*3;t.score=100-t.pen;t.n=n;return t}
+function groups(k){
+  const all=NAMES.map(n=>tally(k,n));
+  const elig=all.filter(x=>x.pen===0);
+  const map={};all.filter(x=>x.pen>0).forEach(x=>(map[x.score]=map[x.score]||[]).push(x));
+  const rest=Object.keys(map).map(Number).sort((a,b)=>b-a).map(s=>map[s]);
+  return {elig,rest};
+}
+const st=r=>`Izin ${r.i}, Bolos ${r.b}, Lupa ${r.l}`;
+function pod(g,rank){
+  if(!g||!g.length)return `<div class="pod p${rank}"><div class="medal">${rank}</div><div class="empty"><b>Belum ada</b>${rank===1?'Butuh absensi penuh.':''}</div></div>`;
+  let h=`<div class="pod p${rank}"><div class="medal">${rank}</div>`;
+  if(g.length===1){h+=`<div class="av">${g[0].n[0]}</div><div class="nm">${g[0].n}</div>`}
+  else h+=`<div class="chips">${g.map(x=>`<span class="chip">${x.n}</span>`).join('')}</div>`;
+  h+=`<div class="pts">${g[0].score} poin</div>`;
+  if(g[0].pen===0)h+=`<span class="badge">Absensi penuh</span>`;
+  if(g.length===1)h+=`<div class="stats">${st(g[0])}</div>`;
+  return h+'</div>';
+}
+function renderRank(){
+  const {s,e}=per(cur);
+  document.getElementById('pt').textContent='Periode '+(cur+1);
+  document.getElementById('pd').textContent=fd(s)+' - '+fd(e);
+  document.getElementById('prev').disabled=cur===0;document.getElementById('next').disabled=cur===5;
+  const el=document.getElementById('rank');
+  if(s>today){el.innerHTML='<div class="note">Periode ini belum dimulai. Peringkat muncul setelah '+fd(s)+'.</div>';return}
+  const {elig,rest}=groups(cur);
+  let h=`<section class="podium">${pod(elig,1)}${pod(rest[0],2)}${pod(rest[1],3)}</section>`;
+  const rows=[];rest.slice(2).forEach((g,i)=>g.forEach(x=>rows.push(`<li class="row"><div class="rk">${i+4}</div><div><div class="nm">${x.n}</div><div class="stats">${st(x)}</div></div><div class="sc">${x.score}</div></li>`)));
+  if(rows.length)h+=`<ol class="list" aria-label="Peringkat lainnya">${rows.join('')}</ol>`;
+  el.innerHTML=h;
+}
+function renderEditor(){
+  document.getElementById('ah').textContent='Isi absensi Periode '+(cur+1);
+  document.getElementById('editor').innerHTML=NAMES.map(n=>{
+    const t=tally(cur,n);
+    const c=(k,l)=>`<div class="ctrl">${l}<button type="button" data-n="${n}" data-k="${k}" data-d="-1" aria-label="Kurangi ${l} ${n}">−</button><output>${t[k]}</output><button type="button" data-n="${n}" data-k="${k}" data-d="1" aria-label="Tambah ${l} ${n}">+</button></div>`;
+    return `<div class="ed"><div class="n">${n}</div><div class="ctrls">${c('i','Izin')}${c('b','Bolos')}${c('l','Lupa absen')}</div></div>`}).join('');
+}
+
+function setMode(msg){
+  $('mode').textContent=msg||'Mode pengelola: perubahan disimpan otomatis ke server.';
+  $('admin').style.display=admin?'block':'none';
+  $('login').textContent=admin?'Keluar pengelola':'Masuk pengelola';
+}
+function renderAll(){renderRank();if(admin)renderEditor()}
+async function fetchData(){try{const r=await fetch('/api/absensi',{cache:'no-store'});if(r.ok){data=(await r.json())||{};renderAll()}}catch(e){}}
+async function api(body){
+  const r=await fetch('/api/absensi',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify(Object.assign({password:pw},body))});
+  return r;
+}
+function logout(){admin=false;pw=null;try{sessionStorage.removeItem('pw')}catch(e){}setMode();renderAll()}
+async function push(k){
+  setMode('Menyimpan...');
+  try{
+    const r=await api({period:k,c:data[k]||{}});
+    if(r.status===401){logout();alert('Kata sandi salah atau sesi berakhir. Silakan masuk lagi.');return}
+    if(!r.ok)throw new Error();
+    setMode('Tersimpan.');
+  }catch(e){setMode('Gagal menyimpan. Periksa koneksi lalu coba lagi.')}
+}
+async function login(p){
+  pw=p;
+  try{
+    const r=await api({check:true});
+    if(!r.ok){pw=null;return false}
+    admin=true;try{sessionStorage.setItem('pw',p)}catch(e){}
+    setMode();await fetchData();renderAll();return true;
+  }catch(e){pw=null;return false}
+}
+$('login').onclick=async()=>{
+  if(admin){logout();return}
+  const p=prompt('Masukkan kata sandi pengelola:');
+  if(!p)return;
+  if(!(await login(p)))alert('Kata sandi salah atau server belum siap.');
+};
+$('prev').onclick=()=>{if(cur>0){cur--;renderAll()}};
+$('next').onclick=()=>{if(cur<5){cur++;renderAll()}};
+$('editor').addEventListener('click',e=>{
+  const b=e.target.closest('button[data-n]');if(!b||!admin)return;
+  const n=b.dataset.n,f=b.dataset.k,k=cur;
+  data[k]=data[k]||{};
+  const r=data[k][n]=Object.assign({i:0,b:0,l:0},data[k][n]);
+  r[f]=Math.max(0,Math.min(999,(+r[f]||0)+ +b.dataset.d));
+  renderAll();
+  clearTimeout(timer);timer=setTimeout(()=>push(k),500);
+  const again=document.querySelector(`#editor button[data-n="${n}"][data-k="${f}"][data-d="${b.dataset.d}"]`);if(again)again.focus();
+});
+const rs=$('reset');let armed=false;
+rs.onclick=async()=>{
+  if(!armed){armed=true;rs.textContent='Klik lagi untuk menghapus semua data';setTimeout(()=>{armed=false;rs.textContent='Reset semua data'},4000);return}
+  armed=false;rs.textContent='Reset semua data';data={};renderAll();
+  for(let k=0;k<6;k++)await push(k);
+};
+renderAll();
+fetchData().then(async()=>{try{const p=sessionStorage.getItem('pw');if(p)await login(p)}catch(e){}});
+setInterval(()=>{if(!admin)fetchData()},30000);
+</script>
+</body>
+</html>

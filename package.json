@@ -1,0 +1,8 @@
+{
+  "name": "toprank-maganghub",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@netlify/blobs": "^9.1.2"
+  }
+}
